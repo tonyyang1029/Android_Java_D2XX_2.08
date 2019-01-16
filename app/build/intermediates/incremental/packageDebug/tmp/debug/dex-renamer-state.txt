@@ -1,0 +1,4 @@
+#Wed Jan 16 09:52:59 CST 2019
+base.0=C\:\\Workspace\\Workspace\\Android\\Workspace\\Android_Java_D2XX_2.08\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

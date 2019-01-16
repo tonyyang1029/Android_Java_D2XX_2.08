@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res"/><source path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\build\generated\res\rs\release"/><source path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res"><file name="button_pattern" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-hdpi\button_pattern.xml" qualifiers="hdpi-v4" type="drawable"/><file name="disable_off" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-hdpi\disable_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="disable_on" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-hdpi\disable_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="enable_off" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-hdpi\enable_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="enable_off_pressed" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-hdpi\enable_off_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="enable_on" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-hdpi\enable_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="enable_on_pressed" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-hdpi\enable_on_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="radio_button_pattern" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-hdpi\radio_button_pattern.xml" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="device_ft4222_gpio" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\layout\device_ft4222_gpio.xml" qualifiers="" type="layout"/><file name="device_ft4222_i2c" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\layout\device_ft4222_i2c.xml" qualifiers="" type="layout"/><file name="device_ft4222_spi" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\layout\device_ft4222_spi.xml" qualifiers="" type="layout"/><file name="device_ft4222_test" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\layout\device_ft4222_test.xml" qualifiers="" type="layout"/><file name="device_information" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\layout\device_information.xml" qualifiers="" type="layout"/><file name="fragment_layout" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\layout\fragment_layout.xml" qualifiers="" type="layout"/><file name="fragment_layout" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\layout-large\fragment_layout.xml" qualifiers="large-v4" type="layout"/><file path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">FT4222 Demo</string><string name="title_activity_main">FTDI J2xx Demo - FT4222</string><string name="clockPhase">Polarity/Phase</string><string name="clockFreq">Frequency</string><string name="sysClock">System Clock</string><string name="clockDivider">Divider</string><string-array name="clock_phase">
+		<item>CPOL=0, CPHA=0</item>        
+		<item>CPOL=0, CPHA=1</item>        
+		<item>CPOL=1, CPHA=0</item>
+		<item>CPOL=1, CPHA=1</item>        
+	</string-array><string-array name="clock_divier">
+		<item>1/2</item>
+		<item>1/4</item>
+		<item>1/8</item>
+		<item>1/16</item>
+		<item>1/32</item>
+		<item>1/64</item>
+		<item>1/128</item>
+		<item>1/256</item>
+		<item>1/512</item>
+	</string-array><string-array name="clock_freq">
+		<item>24MHz</item>
+		<item>48MHz</item>
+		<item>60MHz</item>		
+		<item>80MHz</item>
+	</string-array><string-array name="SPI_freq">
+		<item>24MHz</item>
+		<item>48MHz</item>
+		<item>60MHz</item>		
+		<item>80MHz</item>
+	</string-array><string-array name="I2C_freq">
+		<item>60KHz</item>
+		<item>100KHz</item>
+		<item>400KHz</item>		
+		<item>1MHz</item>
+		<item>3.4MHz</item>
+	</string-array></file><file name="device_filter" path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\main\res\xml\device_filter.xml" qualifiers="" type="xml"/></source><source path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\build\generated\res\rs\release"/><source path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Workspace\Workspace\Android\Workspace\Android_Java_D2XX_2.08\app\src\release\res"/></dataSet><mergedItems/></merger>

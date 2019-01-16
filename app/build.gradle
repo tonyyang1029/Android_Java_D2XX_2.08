@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "com.ftdi.javad2xxdemo.ft4222"
+        minSdkVersion 13
+        targetSdkVersion 16
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_5
+            targetCompatibility JavaVersion.VERSION_1_5
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:20.0.0'
+    implementation files('libs/d2xx.jar')
+}
